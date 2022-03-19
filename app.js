@@ -1,3 +1,8 @@
-const a = 5;
-const longName =  "fuck you";
-console.log(longName);
+const player = {
+    name: "Min jae",
+    age: 10
+}
+
+console.log(player.age);
+player.name = "kido";
+console.log(player.name);
