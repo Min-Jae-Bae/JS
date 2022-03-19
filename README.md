@@ -8,11 +8,17 @@
 ***How to add Array***
 >name.push();
 ---
-***Object***
+***Object + function***
 ```javascript
 const player = {
     name: "Your name",
     age: Your age
-}
+    add: function(a,b) {
+        return a+b;
+    },
+};
 console.log(player.age);
+player.add(a,b);
 ```
+***parseInt(), prompt(), isNaN()***
+>pareInt(): string -> number <br> prompt(): user input message(string) <br> isNaN(): is Not a Number (Output: true or false)
