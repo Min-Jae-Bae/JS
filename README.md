@@ -43,6 +43,4 @@ player.add(a,b);
 <br>
 
 ***.preventDefault()***
-> Control your browser is not action
-
-***"Hello" + Variable vs ``Hello ${Variable}`` ***
+> Control your browser is not action <br>"Hello" + Variable === `Hello ${Variable}`
