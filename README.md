@@ -48,3 +48,9 @@ player.add(a,b);
 
 ***localStorage.setItem("key", value);***
 >Use LocalStorage DB
+
+***setInterval(), setTimeout()***
+>setInterval(Function, Time); : Time interval to happen <br> setTimeout(Function, Time): After time to happen at once
+
+***padStart(), padEnd()***
+>(String).padStart(Text.length, "What to Add in front of text") <br> (String).padEnd(Text.length, "What to Add behind of text")
