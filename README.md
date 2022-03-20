@@ -36,6 +36,6 @@ player.add(a,b);
 ***ClassList***
 >toggle(): if you have class -> remove class ,if you don't have class -> create class
 
-
+<br>
 
 <h1>Chrome App</h1>
