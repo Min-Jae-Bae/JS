@@ -1,4 +1,4 @@
-<h2>3/20/2022<h2>
+<h2>3/20/2022</h2>
 
 ***const and let***
 >const: create an immutable variable <br> let: create an mutable variable
