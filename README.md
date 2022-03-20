@@ -34,8 +34,15 @@ player.add(a,b);
 >Class.addEventListener("Event", Function);
 
 ***ClassList***
->toggle(): if you have class -> remove class ,if you don't have class -> create class
+>toggle(): if you have class -> remove class ,if you don't have class -> create class <br> add(): Add to class
 
 <br>
 
 <h1>Chrome App</h1>
+
+<br>
+
+***.preventDefault()***
+> Control your browser is not action
+
+***"Hello" + Variable vs `Hello ${Variable}` ***
