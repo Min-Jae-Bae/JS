@@ -1,6 +1,7 @@
+<h2>3/20/2022<h2>
+
 ***const and let***
->const는 변하지 않는 변수를 생성한다.
->let은 변하는 변수를 생성한다.
+>const: create an immutable variable <br> let: create an mutable variable
 ---
 ***true, false, null, undefined***
 >true(on) false(off) null(nothing) undefined(not value)
@@ -22,3 +23,6 @@ player.add(a,b);
 ```
 ***parseInt(), prompt(), isNaN()***
 >pareInt(): string -> number <br> prompt(): user input message(string) <br> isNaN(): is Not a Number (Output: true or false)
+
+***Conditional***
+>if<br>else if<br>else
