@@ -26,3 +26,16 @@ player.add(a,b);
 
 ***Conditional***
 >if<br>else if<br>else
+
+***getElementById(), querySelector()***
+>getElementById(Element Id): get your Element Id <br> document.querySelector(".className Element"): CSS Selector 
+
+***Events***
+>Class.addEventListener("Event", Function);
+
+***ClassList***
+>toggle(): if you have class -> remove class ,if you don't have class -> create class
+
+
+
+<h1>Chrome App</h1>
