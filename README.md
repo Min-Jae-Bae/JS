@@ -81,6 +81,6 @@ arr.filter(sexyfilter)
 ```
 ```javascript
 const arr = [1234, 224, 6565, 667, 8787]        
-arr.filter((number) => number > 500)
+arr.filter(number => number > 500)
 
 ```
