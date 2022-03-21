@@ -67,3 +67,20 @@ player.add(a,b);
 
 ***JSON.stringify()***
 >JSON.stringify(): value -> string array <br> JSON.parse(): string array -> array
+
+***forEach()***
+>forEach((value) => ): start fucntion and return value
+
+***.filter()***
+>.fiter(): execpt conditional of Array value
+```javascript
+const arr = [1234, 224, 6565, 667, 8787]        
+function sexyfilter(number) {return number > 500}
+arr.filter(sexyfilter)
+(4) [1234, 6565, 667, 8787]
+```
+```javascript
+const arr = [1234, 224, 6565, 667, 8787]        
+arr.filter((number) => number > 500)
+
+```
