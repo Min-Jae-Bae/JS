@@ -22,13 +22,13 @@ console.log(player.age);
 player.add(a,b);
 ```
 ***parseInt(), prompt(), isNaN()***
->pareInt(): string -> number <br> prompt(): user input message(string) <br> isNaN(): is Not a Number (Output: true or false)
+>pareInt(): string -> number <br> prompt(): user input message(string) <br> isNaN(): is Not a Number (Output: true or false) 
 
 ***Conditional***
 >if<br>else if<br>else
 
-***getElementById(), querySelector()***
->getElementById(Element Id): get your Element Id <br> document.querySelector(".className Element"): CSS Selector 
+***getElementById(), querySelector(), createElemnet()***
+>getElementById(Element Id): get your Element Id <br> document.querySelector(".className Element"): CSS Selector <br> createElement(): create element
 
 ***Events***
 >Class.addEventListener("Event", Function);
@@ -54,3 +54,16 @@ player.add(a,b);
 
 ***padStart(), padEnd()***
 >(String).padStart(Text.length, "What to Add in front of text") <br> (String).padEnd(Text.length, "What to Add behind of text")
+
+
+***Math.random(), round(), ceil(), floor()***
+>Math.random(): 1.XXXXX ~ 9.XXXXX, round() -> 1.xxxx -> 1, ceil(): 1.XXXX -> 2, floor(): 1.xxxx -> 1
+
+***appenChild()***
+>appenChild(): Add element append of body of document
+
+***event.target.parentElement***
+>Get you event target parent element
+
+***JSON.stringify()***
+>JSON.stringify(): value -> string array <br> JSON.parse(): string array -> array
