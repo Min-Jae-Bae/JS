@@ -11,19 +11,22 @@ function toDoSave() {
 
 
 
-function buttonClick(event) { // click event
+function deleteToDo(event) { // click event
     const li = event.target.parentElement;
     li.remove();
+    toDos = toDos.filter((todos) => todos.id !== parseInt(li.id)); // todos db key id !== li.id (false)
+    toDoSave(); // delete save
 }
 
 
 function createToDo(newTodo) {
     const li = document.createElement("li");  // Create li elemnent
+    li.id = newTodo.id;
     const span = document.createElement("span");
     span.innerText = newTodo.text;   // span add in text
     const button = document.createElement("button");
     button.innerText = "❌";
-    button.addEventListener("click", buttonClick); // eventlistenr add click
+    button.addEventListener("click", deleteToDo); // eventlistenr add click
     li.appendChild(span);   // span appen of li
     li.appendChild(button);
     toDoList.appendChild(li);
