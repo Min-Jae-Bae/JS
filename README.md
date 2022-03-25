@@ -2,7 +2,7 @@
 
 ***const and let***
 >const: create an immutable variable <br> let: create an mutable variable
----
+----
 ***true, false, null, undefined***
 >true(on) false(off) null(nothing) undefined(not value)
 ---
